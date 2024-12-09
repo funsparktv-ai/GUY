@@ -6,156 +6,182 @@
     <title>GUY Bot Commands</title>
     <style>
         /* General Reset and Fonts */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #1e1e2e;
-    color: #e4e4e7;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1e1e2e;
+            color: #e4e4e7;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
 
-/* Header Section */
-header {
-    background-color: #2f3136;
-    color: #ffffff;
-    padding: 40px 0;
-    text-align: center;
-    transition: background-color 0.3s ease;
-}
-header img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-bottom: 15px;
-    transition: transform 0.3s ease;
-}
-header img:hover {
-    transform: scale(1.1);
-}
-header h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-    transition: color 0.3s ease;
-}
-header h1:hover {
-    color: #7289da;
-}
-header p {
-    font-size: 1.1rem;
-    opacity: 0.8;
-}
+        /* Header Section */
+        header {
+            background-color: #2f3136;
+            color: #ffffff;
+            padding: 40px 0;
+            text-align: center;
+            transition: background-color 0.3s ease;
+        }
+        header img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            transition: transform 0.3s ease;
+        }
+        header img:hover {
+            transform: scale(1.1);
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+            transition: color 0.3s ease;
+        }
+        header h1:hover {
+            color: #7289da;
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.8;
+        }
 
-/* Content Styling */
-.content {
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 0 20px;
-}
+        /* Content Styling */
+        .content {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
 
-/* Section Styling */
-section {
-    background-color: #272935;
-    border-radius: 10px;
-    margin: 30px 0;
-    padding: 30px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    transition: box-shadow 0.3s ease;
-}
-section:hover {
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-}
-section h2 {
-    color: #7289da;
-    margin-bottom: 20px;
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    animation: fadeIn 1s ease-out;
-}
+        /* Section Styling */
+        section {
+            background-color: #272935;
+            border-radius: 10px;
+            margin: 30px 0;
+            padding: 30px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            transition: box-shadow 0.3s ease;
+        }
+        section:hover {
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+        }
+        section h2 {
+            color: #7289da;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            animation: fadeIn 1s ease-out;
+        }
 
-/* List Styling */
-ul {
-    list-style: none;
-    padding: 0;
-}
-li {
-    margin: 15px 0;
-    padding: 15px 20px;
-    background-color: #36393f;
-    border-radius: 5px;
-    color: #e4e4e7;
-    font-size: 1.1rem;
-    display: flex;
-    align-items: center;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-li:hover {
-    background-color: #42464d;
-    transform: translateX(5px);
-}
-li span {
-    margin-right: 15px;
-    color: #ffd700;
-    font-size: 1.2rem;
-}
-li i {
-    margin-right: 10px;
-}
+        /* List Styling */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 15px 0;
+            padding: 15px 20px;
+            background-color: #36393f;
+            border-radius: 5px;
+            color: #e4e4e7;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        li:hover {
+            background-color: #42464d;
+            transform: translateX(5px);
+        }
+        li span {
+            margin-right: 15px;
+            color: #ffd700;
+            font-size: 1.2rem;
+        }
+        li i {
+            margin-right: 10px;
+        }
 
-/* Footer */
-footer {
-    text-align: center;
-    color: #999;
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #2f3136;
-    font-size: 1rem;
-    transition: background-color 0.3s ease;
-}
-footer:hover {
-    background-color: #23272a;
-}
+        /* Footer */
+        footer {
+            text-align: center;
+            color: #999;
+            margin-top: 40px;
+            padding: 20px;
+            background-color: #2f3136;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        footer:hover {
+            background-color: #23272a;
+        }
 
-/* Animations */
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
+        /* Animations */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 2rem;
-    }
-    .content {
-        padding: 0 10px;
-    }
-    section {
-        padding: 20px;
-    }
-    section h2 {
-        font-size: 1.4rem;
-    }
-    li {
-        font-size: 1rem;
-    }
-    footer {
-        font-size: 0.9rem;
-    }
-}
+        /* Button Styling */
+        .menu-button {
+            background-color: #7289da;
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .menu-button:hover {
+            background-color: #5a6bbd;
+            transform: scale(1.05);
+        }
+
+        .menu-button:active {
+            transform: scale(0.95);
+        }
+
+        /* Hide Sections by Default */
+        .hidden {
+            display: none;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            .content {
+                padding: 0 10px;
+            }
+            section {
+                padding: 20px;
+            }
+            section h2 {
+                font-size: 1.4rem;
+            }
+            li {
+                font-size: 1rem;
+            }
+            footer {
+                font-size: 0.9rem;
+            }
+        }
 
     </style>
 </head>
@@ -167,8 +193,21 @@ footer:hover {
     </header>
 
     <div class="content">
-        <!-- General Commands -->
-        <section>
+        <!-- Menu Buttons -->
+        <div class="menu-buttons">
+            <button class="menu-button" onclick="toggleSection('generalCommands')">General Commands</button>
+            <button class="menu-button" onclick="toggleSection('moderationCommands')">Moderation Commands</button>
+            <button class="menu-button" onclick="toggleSection('funCommands')">Fun Commands</button>
+            <button class="menu-button" onclick="toggleSection('retroGamesCommands')">Retro Games</button>
+            <button class="menu-button" onclick="toggleSection('musicCommands')">Music Commands</button>
+            <button class="menu-button" onclick="toggleSection('utilityCommands')">Utility Commands</button>
+            <button class="menu-button" onclick="toggleSection('guyLevelingCommands')">GUY Leveling Commands</button>
+            <button class="menu-button" onclick="toggleSection('guyEconomyCommands')">GUY Economy Commands</button>
+            <button class="menu-button" onclick="toggleSection('todoCommands')">Todo Commands</button>
+        </div>
+
+        <!-- Command Sections -->
+        <section id="generalCommands" class="hidden">
             <h2>General Commands</h2>
             <ul>
                 <li><span>⭐</span>?ping - Check bot's latency.</li>
@@ -179,8 +218,7 @@ footer:hover {
             </ul>
         </section>
 
-        <!-- Moderation Commands -->
-        <section>
+        <section id="moderationCommands" class="hidden">
             <h2>Moderation Commands</h2>
             <ul>
                 <li>?kick &lt;member&gt; [reason] - Kick a member from the server.</li>
@@ -194,8 +232,8 @@ footer:hover {
             </ul>
         </section>
 
-        <!-- Fun Commands -->
-        <section>
+        <!-- Additional Sections (Fun, Retro, Music, Utility, GUY Leveling, GUY Economy, Todo) -->
+        <section id="funCommands" class="hidden">
             <h2>Fun Commands</h2>
             <ul>
                 <li>?roll &lt;number&gt; - Roll a dice with the specified number of sides.</li>
@@ -215,8 +253,7 @@ footer:hover {
             </ul>
         </section>
 
-        <!-- Retro Games Commands -->
-        <section>
+        <section id="retroGames" class="hidden">
             <h2>Retro Games</h2>
             <ul>
                 <li>?tetris - Play Tetris!</li>
@@ -225,15 +262,15 @@ footer:hover {
             </ul>
         </section>
 
-        <section>
+        <section id="musicCommands" class="hidden">
             <h2>Music Commands</h2>
             <ul>
-                <li>?play <song name> or <song link> - Play a song from Spotify.</li>
+                <li>?play &lt;song name&gt; or &lt;song link&gt; - Play a song from Spotify.</li>
                 <li>?stop - Stop playing the current song.</li>
             </ul>
         </section>
 
-        <section>
+        <section id="utilityCommands" class="hidden">
             <h2>Utility Commands</h2>
             <ul>
                 <li>?lyrics &lt;song&gt; - Search for lyrics of a song.</li>
@@ -248,7 +285,7 @@ footer:hover {
             </ul>
         </section>
 
-        <section>
+        <section id="guyLeveling" class="hidden">
             <h2>GUY Leveling Commands :star2:</h2>
             <ul>
                 <li>?rank - Check your current GUY rank and progress.</li>
@@ -262,32 +299,42 @@ footer:hover {
             </ul>
         </section>
 
-        <section>
-        <h2>GUY Economy Commands :star2:</h2>
-        <ul>
-            <li>?toggleeconomy (Owner only) - Toggle economy!</li>
-            <li>?setcurrency &lt;name&gt; &lt;symbol&gt; (Owner only) - Sets the name and symbol of the currency.</li>
-            <li>?balance - Shows the user's current balance.</li>
-            <li>?daily - Gives the user their daily amount of currency.</li>
-            <li>?work - Allows the user to work and earn a random amount of currency.</li>
-            <li>?give &lt;recipient&gt; &lt;amount&gt; - Gives the specified amount of currency to another user.</li>
-            <li>?setbalance &lt;user&gt; &lt;amount&gt; (Owner only) - Sets the balance of a specified user to a specific amount.</li>
-        </ul>
+        <section id="guyEconomy" class="hidden">
+            <h2>GUY Economy Commands :star2:</h2>
+            <ul>
+                <li>?toggleeconomy (Owner only) - Toggle economy!</li>
+                <li>?setcurrency &lt;name&gt; &lt;symbol&gt; (Owner only) - Sets the name and symbol of the currency.</li>
+                <li>?balance - Shows the user's current balance.</li>
+                <li>?daily - Gives the user their daily amount of currency.</li>
+                <li>?work - Allows the user to work and earn a random amount of currency.</li>
+                <li>?give &lt;recipient&gt; &lt;amount&gt; - Gives the specified amount of currency to another user.</li>
+                <li>?setbalance &lt;user&gt; &lt;amount&gt; (Owner only) - Sets the balance of a specified user to a specific amount.</li>
+            </ul>
         </section>
 
-        <section>
-        <h2>Todo Commands</h2>
-        <ul>
-            <li>?todo add &lt;item&gt; - Add an item to your todo list.</li>
-            <li>?todo list - View your todo list.</li>
-            <li>?todo remove &lt;item_number&gt; - Remove an item from your todo list.</li>
-        </ul>
+        <section id="todoCommands" class="hidden">
+            <h2>Todo Commands</h2>
+            <ul>
+                <li>?todo add &lt;item&gt; - Add an item to your todo list.</li>
+                <li>?todo list - View your todo list.</li>
+                <li>?todo remove &lt;item_number&gt; - Remove an item from your todo list.</li>
+            </ul>
         </section>
-
+        
+        <footer>
+            <p>&copy; 2024 GUY Bot. Powered by funsparktv's coding 🤣.</p>
+        </footer>
     </div>
 
-    <footer>
-        <p>&copy; 2024 GUY Bot. Powered by funsparktv's coding 🤣.</p>
-    </footer>
+    <script>
+        function toggleSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (section.classList.contains('hidden')) {
+                section.classList.remove('hidden');
+            } else {
+                section.classList.add('hidden');
+            }
+        }
+    </script>
 </body>
 </html>
